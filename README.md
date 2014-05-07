@@ -2,6 +2,8 @@ ID3Reader.js
 ============
 
 a JavaScript Library to read ID3 tags of MP3 file.
+#### 支持utf-8和gbk
+######例子：
 ```javascript
   file = "music.mp3"
   // or
