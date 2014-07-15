@@ -8,7 +8,7 @@ a JavaScript Library to read ID3 tags of MP3 file.
   file = "music.mp3"
   // or
   file = input.files[0]
-  id3read("music.mp3", function(id3){
+  id3read(file, function(id3){
     id3.title;
     id3.title;
     id3.artist;
