@@ -114,7 +114,7 @@
                 }else{
                     intGBK = 0;
                     gbk = gbk*256+item;
-                    str = str + (fromGBKCode(gbk)||'');
+                    str = str + ((typeof fromGBKCode === 'function')?fromGBKCode(gbk):''); 
                     gbk = 0;
                 }
             }
